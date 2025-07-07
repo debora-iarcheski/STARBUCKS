@@ -19,3 +19,6 @@ Este é um projeto de **Landing Page** inspirado na marca Starbucks. Foi desenvo
 <img src="img/starbucks1.png" alt="starbucks1" width="500">
 <img src="img/starbucks2.png" alt="starbucks2" width="500">
 <img src="img/starbucks3.png" alt="starbucks3" width="500">
+
+Feito com 💙 por Débora Iarcheski<br>
+[LinkedIn](https://www.linkedin.com/in/debora-iarcheski/)
