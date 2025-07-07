@@ -1,0 +1,112 @@
+* {
+    font-family: "Poppins", sans-serif; /*COPIANDO DO GOOGLE FONTES, EM APLICANDO EM TODO O PROJETO*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 20px; /*ESPAÇAMENTO EM CIMA*/
+    padding-left: 100px; /*ESPAÇAMENTO A ESQUERDA*/
+    padding-right: 100px; /*ESPAÇAMENTO A DIREITA*/
+    /*padding-bottom: 100px; - ESPAÇAMENTO EMBAIXO*/
+}
+
+.circulo{
+    background-color: #017143;
+    border-radius: 0px; /*ARREDONDAR BORDA*/
+    width: 100%; /*TAMANHO NA TELA*/
+    height: 100%; /*ALTURA*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px); /*RECORTAR UM CIRCULO - A DIREITA 600PX E TENHA 800 PX*/
+    z-index: -1; /*Z-INDEX DEFINE QUEM FICA NA FRENTE DE QUEM*/
+
+}
+
+.caixa-conteudo {
+    width: 100%; /*USAR TODA A TELA*/
+    display: flex; /*COLOCA LADO A LADO OS ITENS*/
+    align-items: center; /*CENTRALIZA NO MEIO DA TELA*/
+    justify-content: space-between;
+}
+
+.caixa-texto{
+    width: 600px;
+
+}
+
+.caixa-imagem{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end; /*JUSTIFICA O CONTEÚDO NO FINAL DA "CAIXA"*/
+    margin-top: 50px;
+
+}
+.copo {
+    width: 340px; /*ESPAÇO DA TELA*/
+    
+}
+
+.caixa-menu{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.botao-menu {
+    width: 80px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.botao-menu:hover {
+    transform: translateY(-25px); /*MOVIMENTAR O OBJETO PARA CIMA - Y VERTICAL - X HORIZONTAL*/
+    transition: 0.5s;
+
+}
+
+h2 {
+    color: #333333;
+    font-size: 60px;
+    /*TAMANHO DA FONTE*/
+    font-weight: 600;
+    /*ESPESSURA DA FONTE*/
+}
+
+span {
+    color: #017143;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+p {
+    width: 800px;
+    font-size: 16;
+
+}
+
+button{
+   background-color: #017143;
+   color: #ffffff;
+   padding: 10px; /*CRESCER BOTÃO*/
+   border-radius: 40px; /*ARREDONDAR BORDA*/
+   border: none; /*NONE É "NADA", ENTÃO SEM NADA NAS BORDAS DO BOTÃO*/
+   margin-top: 30px;
+   cursor: pointer;
+
+}
+
+button:hover{ /*HOVER É QUANDO O MOUSE ESTÁ EM CIMA DO BOTÃO*/
+    color: rgb(255, 255, 255);
+    background-color: rgb(109, 203, 139);
+    transition: 0.5s;
+}
+.starbucks {
+    width: 340px;      /* define sempre a mesma largura            */
+    height: 340px;     /* opcional: força altura fixa também       */
+    object-fit: contain; /* garante que a imagem cabe sem distorcer */
+    display: block;    /* remove eventuais espaços em branco        */
+    transition: 0.3s;  /* anima levemente a troca, opcional         */
+}
